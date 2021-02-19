@@ -54,15 +54,10 @@ strong{
     font-size: 15px;
     font-family: 'Raleway', sans-serif; 
 }
-/*
-ul, li{
-   
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-*/
+
+/*------------------------------
+------------NAVBAR--------------
+------------------------------*/
 
 .container-logo-inscription {
     display: flex;
@@ -71,10 +66,6 @@ ul, li{
     align-items: center; 
     padding-left: 50px;
     padding-right: 50px;
-}
-.searchbutton{
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif; 
 }
 
 .nav-element a{
@@ -98,6 +89,8 @@ ul, li{
 
 }
 
+/*---------NAVBAR HOVER---------*/
+
 .nav-element a:hover {
     border-top: 2px solid #DEEBFF;
     color: #0065FC; 
@@ -117,6 +110,14 @@ ul, li{
 ------BARRE DE RECHERCHE-------
 ------------------------------*/
 
+.icone{
+    height: 30px;
+    background: #F2F2F2;
+    border-radius:10px 0px 0px 10px ;
+    line-height: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .searchbar{
     display: flex;
     font-size: 12px;
@@ -127,15 +128,14 @@ ul, li{
     
 }
 
-.icone{
-    height: 30px;
-    background: #F2F2F2;
-    border-radius:10px 0px 0px 10px ;
-    line-height: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
+.searchbutton{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif; 
 }
-input{
+
+input {
+    border: 1px solid #D3D3D3;
+    border-radius: inherit;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
@@ -165,11 +165,6 @@ input{
     display: none;
 }
 
-.input {
-    border: 1px solid #D3D3D3;
-    border-radius: inherit;
-    font-family: 'Raleway', sans-serif;
-}
 .rechercher:focus {
     outline:0;
 }
@@ -187,54 +182,6 @@ input{
 
 /*------------------------------
 -----------FILTRES--------------
-------------------------------*/
-
-li {
-    position: relative; 
-    right: 1px;
-    color:  #0065FC;
-    padding: 15px 16px;
-    background-color: #DEEBFF;
-    border-radius: 25px;
-    margin-right: 5px;
-}
-li {
-    border: solid 3px #F2F2F2;
-    margin: 6px;
-    padding-right: 15px;
-    border-radius: 25px;
-    font-size: 0.9em;
-    font-weight: bold;
-}
-
-li:hover {
-    background-color:  #DEEBFF;
-
-}
-
-.containeur-info{
-    padding-bottom: 1.5%;
-    padding-top: 1.5%;
-}
-.bulle-info{
-    font-size: 0.6em;
-    background-color: white;
-    color: blue;
-    border: solid 0.5px lightgrey;
-    border-radius: 100px;
-    padding: 7px 9px;
-    float: left;
-}
-
-.texte-info{
-    padding-left: 3%;
-}
-
-
-
-
-/*------------------------------
---------NOUVEAUX FILTRES--------
 ------------------------------*/
 
 .container-filtre{
@@ -382,7 +329,6 @@ height: 700px;
     background:#F2F2F2;
     border-radius:20px;
     height: 700px;
-    justify-content: space-between;
 }
 .titre-populaires{
     padding-top: 5%;
@@ -397,6 +343,7 @@ height: 700px;
     width: 400px;
     background-color: white;
     border-radius: 30px;
+    margin-bottom: 40px;
     border: 8px solid white;
     transition: transform .2s;
     box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75)
@@ -404,7 +351,8 @@ height: 700px;
 
 
 .populaires-texte{
-    line-height: 3px;
+    line-height: 20px;
+    width: 700px;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
@@ -414,9 +362,10 @@ height: 700px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
     object-position: 0 50%;
-    width: 40%;
+    width: 90%;
     height: 170px;
 }
+
 
 .container-logo-inscription{
 display: flex;
@@ -500,20 +449,6 @@ footer{
 
 }
 
-/*
-.bloc-2
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.bloc-4
-{
-    display: flex;
-    flex-direction: column;
-}
-*/
-
 .activites{
     width: 90%;
     display: flex;
@@ -525,8 +460,6 @@ footer{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-
 
 
 .fort-de-pomegues{
@@ -584,5 +517,4 @@ footer{
 .title-activites{
     padding-bottom: 0,7%;
     padding-top: 3%;
-
 }
