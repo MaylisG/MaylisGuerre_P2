@@ -4,31 +4,34 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/d6f1339307.js" crossorigin="anonymous"></script>
   <title class="title-reservia">Reservia - Trouvez votre hébergement pour des vacances de rêves</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
   <header>
     <nav>
-        <div class="container-logo-inscription">
-            <img src="images/logo/Reservia.svg" alt="" srcset="">
-            <div class="inscription-link">
-                <div class="nav-element1"><a href="#">S'inscrire</a></div>
-            </div>
+      <div class="container-logo-inscription">
+        <img src="images/logo/Reservia.svg" alt="" srcset="">
+        <div class="inscription-link">
+          <div class="nav-element1">
+            <a href="#">S'inscrire</a>
+          </div>
         </div>
-        <div class="container-link-reverse">
-            <div class="nav-element"><a href="#">Hébergement</a></div>
-            <div class="nav-element2"><a href="#">Activités</a></div>
+      </div>
+      <div class="container-link-reverse">
+        <div class="nav-element">
+          <a href="#">Hébergement</a>
         </div>
-      </nav>
-    
-<!-- Section 1 Presentation-->
-<section id="presentation">
-    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-    <p>En plein centre-ville ou en pleine nature</p>
+        <div class="nav-element2">
+          <a href="#">Activités</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Section 1 Presentation-->
+    <section id="presentation">
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre-ville ou en pleine nature</p>
     </section>
-    
-   
     <div class="searchbar">
       <div class="icone">
         <i class="fas fa-map-marker-alt map"></i>
@@ -42,61 +45,41 @@
       </div>
     </div>
 
-     <!--
-    <h1>Filtres</h1>
-    <ul>
-      <li>
-        <span>
+    <div class="container-filtre">
+      <h3 class="titre-filtre">Filtres</h3>
+      <div class="content-filtre">
+        <div class=icone-filtre>
           <i class="fas fa-money-bill-wave"></i>
-        </span>Economique</li>
-      <li>
-        <span>
+        </div>
+        <p>Economique</p>
+      </div>
+      <div class="content-filtre">
+        <div class=icone-filtre>
           <i class="fas fa-child"></i>
-        </span>Familial</li>
-      <li>
-        <span>
+        </div>
+        <p>Familial</p>
+      </div>
+      <div class="content-filtre">
+        <div class=icone-filtre>
           <i class="fas fa-heart"></i>
-        </span>Romantique</li>
-      <li>
-        <span>
+        </div>
+        <p>Romantique</p>
+      </div>
+      <div class="content-filtre">
+        <div class=icone-filtre>
           <i class="fas fa-dog"></i>
-        </span>Animaux autorisés</li>
-    </ul>
-
--->
-<div class="container-filtre">
-  <h3 class="titre-filtre">Filtres</h3>
-  <div class="content-filtre">
-    <div class=icone-filtre><i class="fas fa-money-bill-wave"></i></div>
-    <p>Economique</p>
-  </div>
-
-  <div class="content-filtre">
-    <div class=icone-filtre><i class="fas fa-child"></i></div>
-    <p>Familial</p>
-  </div>
-
-  <div class="content-filtre">
-    <div class=icone-filtre><i class="fas fa-heart"></i></div>
-    <p>Romantique</p>
-  </div>
-
-  <div class="content-filtre">
-    <div class=icone-filtre><i class="fas fa-dog"></i></div>
-    <p>Animaux autorisés</p>
-  </div>
-</div>
-  
-<div class="containeur-info">
-    <p class="bulle-info">
-      <i class="fas fa-info"></i></p><p class="texte-info">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        <p>Animaux autorisés</p>
+      </div>
+    </div>
+    <div class="containeur-info">
+      <p class="bulle-info">
+        <i class="fas fa-info"></i>
+      </p>
+      <p class="texte-info">Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
   </header>
-
-  
   <main>
-
-
     <section class="liste-hebergements">
       <h2 class="titre-hebergements">Hebergements à Marseille</h2>
       <article>
@@ -211,13 +194,11 @@
       </article>
       <h2 class="afficher-plus">Afficher plus</h2>
     </section>
-
-
-  
     <aside class=les-plus-populaires>
       <h2 class="titre-populaires">Les plus populaires</h2>
-      <div class="populaires">
-        <a href="">
+
+      <a href="">
+        <div class="populaires">
           <div class="populaires-images">
             <img alt="Hotel-le-soleil-du-matin" src="images/hebergements/4_small/hotel-le-soleil-du-matin.jpg">
           </div>
@@ -226,27 +207,27 @@
             <p>Nuit à partir de
               <strong>25€</strong>
             </p>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
           </div>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star gris"></i>
+        </div>
+      </a>
+      <a href="">
+        <div class="populaires">
+          <div class="populaires-images">
+            <img alt="Au-coeur-de-l'eau-Chambre-dhotes" src="images/hebergements/4_small/au-coeur-de-leau-chambre-dhotes.jpg">
           </div>
-        </a>
-      </div>
-
-  
-      <div class="populaires">
-        <a href="">
-          <img alt="auberge-la-canebiere" src="images/hebergements/4_small/au-coeur-de-leau-chambre-dhotes.jpg">
           <div class="populaires-texte">
-            <h4>Au coeur de l'eau chambre d'hotes</h4>
+            <h4>Au coeur de l'eau Chambre d'hotes</h4>
             <p>Nuit à partir de
-              <strong>25€</strong>
+              <strong>71€</strong>
             </p>
-            <div>
+            <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -254,17 +235,19 @@
               <i class="fas fa-star gris"></i>
             </div>
           </div>
-        </a>
-      </div>
-      <div class="populaires">
-        <a href="">
-          <img alt="auberge-la-canebiere" src="images/hebergements/4_small/hotel-tout-bleu-et-blanc.jpg">
+        </div>
+      </a>
+      <a href="">
+        <div class="populaires">
+          <div class="populaires-images">
+            <img alt="Hotel-tout-bley-et-blanc" src="images/hebergements/4_small/hotel-tout-bleu-et-blanc.jpg">
+          </div>
           <div class="populaires-texte">
-            <h4>Hotel tout bleu tout blanc</h4>
+            <h4>Hotel tout bleu et blanc</h4>
             <p>Nuit à partir de
-              <strong>25€</strong>
+              <strong>68€</strong>
             </p>
-            <div>
+            <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -272,85 +255,74 @@
               <i class="fas fa-star gris"></i>
             </div>
           </div>
-        </a>
-      </div>
-
+        </div>
+      </a>
     </aside>
-  
     <section>
     </section>
   </main>
   <!-- Section 7 Activites -->
-<section>
-<h2 class="title-activites">Activités à Marseille</h2>
-
-<div class="container-activites">
-  <div class="bloc-1">
-      <div class="activites">
-        <img src="images/activites/4_small/vieux-port.jpg" 
-         alt="vieux-port" class="image-activites1">
-      <h3 class="titre-activite">Vieux port</h3>
+  <section>
+    <h2 class="title-activites">Activités à Marseille</h2>
+    <div class="container-activites">
+      <div class="bloc-1">
+        <div class="activites">
+          <img src="images/activites/4_small/vieux-port.jpg" alt="vieux-port" class="image-activites1">
+          <h3 class="titre-activite">Vieux port</h3>
+        </div>
       </div>
-  </div>
-
-  <div class="bloc-2">
-    <div class="activites fort-de-pomegues">
-      <img src="images/activites/4_small/fort-de-pomegues.jpg" 
-       alt="fort-de-pomegues" class="image-activites2">
-    <h3 class="titre-activite">Fort de Pomegues</h3>
+      <div class="bloc-2">
+        <div class="activites fort-de-pomegues">
+          <img src="images/activites/4_small/fort-de-pomegues.jpg" alt="fort-de-pomegues" class="image-activites2">
+          <h3 class="titre-activite">Fort de Pomegues</h3>
+        </div>
+        <div class="activites">
+          <img src="images/activites/4_small/iles-du-frioul.jpg" alt="iles-du-frioult" class="image-activites3">
+          <h3 class="titre-activite">Iles du Frioul</h3>
+        </div>
+      </div>
+      <div class="bloc-3">
+        <div class="activites">
+          <img src="images/activites/4_small/parc-national-des-calanques.jpg" alt="parc-national-des-calanques" class="image-activites1">
+          <h3 class="titre-activite">Parc national des calanques</h3>
+        </div>
+      </div>
+      <div class="bloc-4">
+        <div class="activites notre-dame-de-la-garde">
+          <img src="images/activites/4_small/notre-dame-de-la-garde.jpg" alt="Notre-dame-de-la-garde" class="image-activites3">
+          <h3 class="titre-activite">Notre Dame de la Garde</h3>
+        </div>
+        <div class="activites">
+          <img src="images/activites/4_small/parc-longchamp.jpg" alt="parc-longchamp" class="image-activites2">
+          <h3 class="titre-activite">Parc Longchamp</h3>
+        </div>
+      </div>
     </div>
-    <div class="activites">
-      <img src="images/activites/4_small/iles-du-frioul.jpg" 
-       alt="iles-du-frioult" class="image-activites3">
-    <h3 class="titre-activite">Iles du Frioul</h3>
-    </div>
-  </div>
-
-  <div class="bloc-3">
-    <div class="activites">
-      <img src="images/activites/4_small/parc-national-des-calanques.jpg" 
-      alt="parc-national-des-calanques" class="image-activites1">
-    <h3 class="titre-activite">Parc national des calanques</h3>
-    </div>
-  </div>
-
-  <div class="bloc-4">
-    <div class="activites notre-dame-de-la-garde">
-      <img src="images/activites/4_small/notre-dame-de-la-garde.jpg" 
-      alt="Notre-dame-de-la-garde" class="image-activites3">
-    <h3 class="titre-activite">Notre Dame de la Garde</h3>
-  </div>
-  <div class="activites">
-    <img src="images/activites/4_small/parc-longchamp.jpg" 
-     alt="parc-longchamp" class="image-activites2">
-  <h3 class="titre-activite">Parc Longchamp</h3>
-  </div>
-  </div>
-
-</div>
-      
-
-  <!-- Section 8 Footer -->
-     
-     <!-- FOOTER -->
-  <footer>
+    <!-- Section 8 Footer -->      
+    <!-- FOOTER -->
+    <footer>
       <div class="footer-column">
-          <h4 class="titre-footer"> A propos </h4>
-          <a class="texte-footer" href=""> Fonctionnement du site </a>
-          <a class="texte-footer" href=""> Conditions générales de vente </a>
-          <a class="texte-footer" href=""> Données et confidentialité </a>
+        <h4 class="titre-footer">A propos</h4>
+        <a class="texte-footer" href="">Fonctionnement du site</a>
+        <a class="texte-footer" href="">Conditions générales de vente</a>
+        <a class="texte-footer" href="">Données et confidentialité</a>
       </div>
       <div class="footer-column">
-          <h4 class="titre-footer"> Nos hébergements </h4>
-          <a class="texte-footer" href=""> Charte qualité </a>
-          <a class="texte-footer" href=""> Soumettre votre hôtel </a>
+        <h4 class="titre-footer">Nos hébergements</h4>
+        <a class="texte-footer" href="">Charte qualité</a>
+        <a class="texte-footer" href="">Soumettre votre hôtel</a>
       </div>
       <div class="footer-column">
-          <h4 class="titre-footer"> Assistance </h4>
-          <a class="texte-footer" href=""> Centre d'aide </a>
-          <a class="texte-footer" href=""> Nous contacter </a>
+        <h4 class="titre-footer">Assistance</h4>
+        <a class="texte-footer" href="">Centre d'aide</a>
+        <a class="texte-footer" href="">Nous contacter</a>
+        <a class="texte-footer" href="">Centre d'aide</a>
+        <a class="texte-footer" href="">Nous contacter</a>
+
       </div>
-  </footer>     
-  </body>
-  </html>
+    </footer>
 </body>
+
+</html>
+</body>
+
