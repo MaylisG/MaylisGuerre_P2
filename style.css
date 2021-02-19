@@ -122,6 +122,8 @@ ul, li{
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    padding-bottom: 2%;
+    padding-top: 1.5%;
     
 }
 
@@ -135,6 +137,7 @@ ul, li{
 }
 input{
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .rechercher{
@@ -207,6 +210,11 @@ li {
 li:hover {
     background-color:  #DEEBFF;
 
+}
+
+.containeur-info{
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
 }
 .bulle-info{
     font-size: 0.6em;
@@ -286,6 +294,12 @@ font-weight: bold;
     padding: 10px 19px;
 }
 
+.titre-hebergements{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 0,5%;
+}
+
 /*-----HOTELS------*/
 
 .hotels{
@@ -318,6 +332,13 @@ font-weight: bold;
 
 .gris{
     color:lightgrey;
+}
+
+/*-----AFFICHER PLUS------*/
+
+.afficher-plus{
+    padding-left: 3%;
+    font-size: 15px;;
 }
 
 /*-----ENCADREMENT DES IMAGES------*/
@@ -362,6 +383,11 @@ height: 700px;
     border-radius:20px;
     height: 700px;
     justify-content: space-between;
+}
+.titre-populaires{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 0,5%;
 }
 
 
@@ -470,6 +496,7 @@ footer{
 {
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 3%;
 
 }
 
@@ -552,4 +579,9 @@ footer{
 
 .section-activites{
     width: 100%;
+}
+
+.title-activites{
+    padding-bottom: 0,7%;
+    padding-top: 3%;
 }
