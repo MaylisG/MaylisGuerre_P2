@@ -340,7 +340,7 @@ flex-wrap: wrap;
     width: 350px;
     background-color: white;
     border-radius: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border: 6px solid white;
     transition: transform .2s;
     box-shadow: 10px 10px 10px 10px rgba(232, 225, 225, 0.75)
@@ -348,7 +348,7 @@ flex-wrap: wrap;
 
 
 .populaires-texte{
-    line-height: 20px;
+    line-height: 25px;
     width: 700px;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
@@ -389,51 +389,6 @@ padding-right: 200px;
 }
 
 
-    /* FOOTER */
-
-footer
-{
-   background: #F2F2F2;
-   display: flex;
-   width: 100%;
- }
-.footer-column
-{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    width: 50%;
-    justify-content: space-around;
-    line-height: 200%;
-    font-size: 15px;
-    font-family: "Gill Sans", sans-serif;
-}
-.footer a
-{
-    text-decoration: none;
-    color: black;
-    justify-content: space-around;
-}
-.footer a:visited
-{
-    text-decoration: none;
-    color: black;
-}
-.footer h4
-{
-    font-weight: bold;
-    font-size: 15px;
-    font-family: "Gill Sans", sans-serif;
-}
-.titre-footer{
-    font-weight: bold;
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif;
-}
-.texte-footer{
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif;
-}
 
 /* ACTIVITES */
 
@@ -515,6 +470,51 @@ footer
     padding-top: 3%;
 }
 
+    /* FOOTER */
+
+footer
+{
+   background: #F2F2F2;
+   display: flex;
+   width: 100%;
+ }
+.footer-column
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+    justify-content: space-around;
+    line-height: 200%;
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+}
+.footer a
+{
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+}
+.footer a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+.footer h4
+{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Gill Sans", sans-serif;
+}
+.titre-footer{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.texte-footer{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
 
 /*------------------------------
 ----------MEDIA QUERIES-------
@@ -540,4 +540,74 @@ footer
     footer{
             flex-direction: column;
     }
+}
+
+/* ACTIVITES */
+
+.container-activites
+{
+    flex-direction: column;
+}
+
+.activites{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.titre-activite{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding-left: 20px;
+    border-left: 20px;
+
+}
+
+
+.image-activites2{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-position: 0 50%;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.image-activites1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-position: 0 50%;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.image-activites3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-position: 0 50%;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+.section-activites{
+    width: 100%;
+}
+
+.title-activites{
+    padding-bottom: 0,7%;
+    padding-top: 3%;
 }
