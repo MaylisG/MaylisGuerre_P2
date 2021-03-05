@@ -1,6 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif;
     color: #232323;
+    margin: auto;
+    width: 100%;
 }
 
 
@@ -103,7 +105,7 @@ strong{
     padding-top: 30px;
 }
 .nav-element1 a:hover {
-    border-bottom: 2px solid #DEEBFF;
+    border-: 2px solid #DEEBFF;
     color: #0065FC;
     padding-top: 30px;
 }
@@ -189,7 +191,6 @@ input {
     display: flex;
     border: 1px solid lightgrey;
     border-radius: 25px;
-    height: 50px;
     margin-left: 30px;
     Cursor:pointer;
 }
@@ -211,6 +212,32 @@ input {
 padding-right: 15px;
 padding-left: 5px;
 font-weight: bold;
+}
+
+/*------------------------------
+---------INFORMATIONS-----------
+------------------------------*/
+
+.containeur-info{
+    display: flex;
+    align-items: baseline;
+}
+
+.icone-info{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    line-height: 30px;
+    text-align: center;
+}
+
+.fa-info{
+    color: blue;
+}
+
+.texte-info{
+    padding-left: 10px;
 }
 
 / ----- TOUS LES HEBERGEMENTS ------ /
@@ -527,14 +554,53 @@ footer
 .nav-element, .nav-element2{
     position: inherit;
     bottom: inherit;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 20px;
     }
 
+
+  .nav-element2 a{
+      padding-left: 110%;
+      border-bottom: 3px solid #F2F2F2;
+      padding-bottom: 20px;
+  }
+
+.nav-element a:hover{
+    border-top: inherit;
+    border-bottom: 3px solid blue;
+    color: #0065FC; 
+    padding-bottom: 20px;
+}
+
+.nav-element2 a:hover{
+    border-top: inherit;
+    border-bottom: 3px solid blue;
+    color: #0065FC; 
+    padding-bottom: 20px;
+}
+
+.titre-presentation{
+    padding-left: 40px;
+}
+
+.searchbar{
+    padding-left: 40px;
+}
+
+.container-filtre{
+    padding-left: 40px;
+}
+
+.sous-titre-presentation{
+    padding-left: 40px;
+    padding-right: 90px;
+}
     .rechercher{
         display: none;
-     
     }
     .rechercherloupe{
         display: block;
+        height: 38px;
 
     }
 
@@ -612,6 +678,7 @@ main{
         border-radius:inherit;
         height: 670px;
         width: 100%;
+        margin-left: inherit;
     }
     
     /*-----DESIGN------*/
