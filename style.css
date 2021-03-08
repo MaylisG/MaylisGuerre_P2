@@ -379,6 +379,11 @@ flex-wrap: wrap;
 
 /*-----DESIGN------*/
 
+.containeur-populaires{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .populaires{
     display: flex;
@@ -569,20 +574,20 @@ footer
 
 @media screen and (max-width: 700px){
 
-
+    .container-link-reverse {
+        display: flex;
+        justify-content: center;
+        padding-right: inherit;
+    }
 .nav-element, .nav-element2{
     position: inherit;
     bottom: inherit;
     border-bottom: 3px solid #F2F2F2;
     padding-bottom: 20px;
+    width: 50%;
+    text-align: center;
     }
 
-
-  .nav-element2 a{
-      padding-left: 110%;
-      border-bottom: 3px solid #F2F2F2;
-      padding-bottom: 20px;
-  }
 
 .nav-element a:hover{
     border-top: inherit;
@@ -598,17 +603,7 @@ footer
     padding-bottom: 20px;
 }
 
-.titre-presentation{
-    padding-left: 40px;
-}
 
-.searchbar{
-    padding-left: 40px;
-}
-
-.container-filtre{
-    padding-left: 40px; 
-}
 
 .containeur-filtre-mediaqueries{
     display: flex;
@@ -616,27 +611,21 @@ footer
 }
 
 .containeur-info{
-    padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.sous-titre-presentation{
-    padding-left: 40px;
-    padding-right: 90px;
-}
     .rechercher{
         display: none;
     }
-    .rechercherloupe{
-        display: block;
-        height: 38px;
+.rechercherloupe{
+    display: block;
+    height: 38px;
+}
 
-    }
-
-    footer{
-            flex-direction: column;
-    }
+footer{
+    flex-direction: column;
+}
 
 /* ACTIVITES */
 
@@ -715,12 +704,51 @@ main{
     
     
     .populaires{
-        width: 420px;
+        width: inherit
     }
     
     
     .populaires-texte .star{
         padding-top: 10%;
     }
+
+}
+
+
+@media (min-width: 700px) and (max-width: 1200px) {
+
+    /* ACTIVITES */
+
+.container-activites
+{
+    flex-direction: column;
+}
+
+.activites{
+    margin-bottom: 20px;
+}
+ 
+.image-activites1{
+    height: 150px;
+}
+
+.image-activites2{
+    height: 150px;
+}
+
+.image-activites3{
+    height: 150px;
+}
+
+.section-activites{
+    width: 100%;
+}
+
+.title-activites{
+    padding-bottom: 2%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
 
 }
