@@ -740,7 +740,10 @@ main{
     .hotels{
         width: 50%;
     }
-    
+    .liste-hebergements{
+        height: inherit;
+        margin-right: 20px;
+    }
     
     
     /* ACTIVITES */
