@@ -717,6 +717,32 @@ main{
 
 @media (min-width: 700px) and (max-width: 1200px) {
 
+    main{
+        flex-direction: column-reverse;
+    }
+      /* POPULAIRES */
+    .populaires{
+        width: inherit;
+    }
+
+    .titre-populaires{
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    
+    .les-plus-populaires{
+        margin-bottom: 20px;
+        background-color: inherit;
+    }
+    
+     /* HOTELS */
+    
+    .hotels{
+        width: 50%;
+    }
+    
+    
+    
     /* ACTIVITES */
 
 .container-activites
