@@ -335,7 +335,8 @@ h4{
 .afficher-plus{
     padding-left: 3%;
     padding-top: 2%;
-    font-size: 15px;;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
