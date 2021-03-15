@@ -557,6 +557,10 @@ footer
     font-size: 15px;
 }
 
+.texte-footer:hover{
+    font-weight: bold;
+}
+
 /*------------------------------
 ----------MEDIA QUERIES-------
 ------------------------------*/
