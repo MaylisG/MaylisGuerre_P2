@@ -612,6 +612,11 @@ footer
     height: 38px;
 }
 
+.titre-filtre{
+    width :100%;
+    margin-left: 40px;
+}
+
 footer{
     flex-direction: column;
 }
