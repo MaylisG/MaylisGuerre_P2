@@ -1,5 +1,14 @@
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('Polices/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
     color: #232323;
     margin: auto;
     width: 100%;
@@ -7,13 +16,11 @@ body{
 
 
 *{
-    font-family: 'Raleway';
     box-sizing: border-box;
   
 }
 title{
     font-size: 20px;
-    font-family: 'Raleway', sans-serif; 
 }
 
 a {
@@ -23,24 +30,20 @@ a {
 
 h1{
     font-size: 20px;
-    font-family: 'Raleway', sans-serif; 
 }
 
 
 h2{
      font-size: 20px;
-    font-family: 'Raleway', sans-serif; 
 }
 
 h3{
     font-size: 20px;
-    font-family: 'Raleway', sans-serif; 
 }
 
 h4{
     font-size: 15px;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
 }
 
 h5{
@@ -50,11 +53,9 @@ h5{
 
 p{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif; 
 }
 strong{
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif; 
+    font-size: 15px; 
 }
 
 /*------------------------------
@@ -84,7 +85,6 @@ strong{
 
 .nav-element a{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     padding: 30px;
 }
 
@@ -92,7 +92,6 @@ strong{
 
 .nav-element1 a{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: blue;
     padding: 30px;
@@ -103,7 +102,6 @@ strong{
 
 .nav-element2 a{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     padding: 30px;
 
 }
@@ -140,7 +138,6 @@ strong{
 .searchbar{
     display: flex;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding-bottom: 2%;
     padding-top: 1.5%;
@@ -149,13 +146,11 @@ strong{
 
 .searchbutton{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif; 
 }
 
 input {
     border: 1px solid #D3D3D3;
     border-radius: inherit;
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
 
@@ -170,7 +165,6 @@ input {
     padding-right: 15px;
     justify-content: space-between;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .rechercherloupe{
@@ -309,7 +303,6 @@ main {
     margin: -8px 5px 5px 9px;
     line-height: 2px;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .hotels img{
@@ -402,7 +395,6 @@ flex-wrap: wrap;
     line-height: 25px;
     width: 700px;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     margin: -20px 0px 0px 12px;
 }
 
@@ -474,7 +466,6 @@ padding-right: 200px;
 
 .titre-activite{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
     display: flex;
     padding-left: 20px;
     border-left: 20px;
@@ -556,16 +547,13 @@ footer
 {
     font-weight: bold;
     font-size: 15px;
-    font-family: "Gill Sans", sans-serif;
 }
 .titre-footer{
     font-weight: bold;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
 }
 .texte-footer{
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
 }
 
 /*------------------------------
@@ -675,6 +663,7 @@ main{
 .liste-hebergements{
     background: inherit;
     height: 1510px;
+    margin-left: inherit;
     }
 .afficher-plus{
      padding-left: 1%;
@@ -738,7 +727,7 @@ main{
      /* HOTELS */
     
     .hotels{
-        width: 50%;
+        width: 45%;
     }
     .liste-hebergements{
         height: inherit;
