@@ -92,7 +92,7 @@ strong{
 .nav-element1 a{
     font-size: 15px;
     font-weight: bold;
-    color: blue;
+    color: #0065FC;
     padding: 30px;
 
 }
@@ -168,7 +168,7 @@ input {
 
 .rechercherloupe{
     height: 30px;
-    background: blue;
+    background: #0065FC;
     color: white;
     border-radius: 0px 10px 10px 0px;
     border: none;
@@ -207,7 +207,7 @@ input {
 
 .icone-filtre{
     background-color:#DEEBFF;
-    color: blue;
+    color: #0065FC;
     width: 38px;
     height: 38px;
     border-radius: 50%;
@@ -603,9 +603,10 @@ footer
 
 
 
-.containeur-filtre-mediaqueries{
+.containeur-filtre{
     display: flex;
     flex-direction: column;
+    margin-left: inherit;
 }
 
 .containeur-info{
@@ -619,6 +620,10 @@ footer
 .rechercherloupe{
     display: block;
     height: 38px;
+}
+
+input {
+    width: 300px;
 }
 
 .titre-filtre{
