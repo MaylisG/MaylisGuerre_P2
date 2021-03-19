@@ -218,7 +218,6 @@ input {
 .content-filtre p{
 padding-right: 15px;
 padding-left: 5px;
-margin-top: 0.2px;
 font-weight: bold;
 }
 
@@ -603,15 +602,20 @@ footer
 
 
 
-.containeur-filtre{
+.container-filtre{
     display: flex;
-    flex-direction: column;
     margin-left: inherit;
 }
+
+.content-filtre{
+    margin-bottom: 20px;
+}
+
 
 .containeur-info{
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 
     .rechercher{
