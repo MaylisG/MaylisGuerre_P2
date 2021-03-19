@@ -586,7 +586,14 @@ footer
     }
 
 
-.nav-element a:hover{
+.nav-element:hover{
+    border-top: inherit;
+    border-bottom: 3px solid blue;
+    color: #0065FC; 
+    padding-bottom: 20px;
+}
+
+.nav-element2:hover{
     border-top: inherit;
     border-bottom: 3px solid blue;
     color: #0065FC; 
@@ -595,11 +602,12 @@ footer
 
 .nav-element2 a:hover{
     border-top: inherit;
-    border-bottom: 3px solid blue;
-    color: #0065FC; 
-    padding-bottom: 20px;
 }
 
+
+.nav-element a:hover{
+    border-top: inherit;
+}
 
 
 .container-filtre{
