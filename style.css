@@ -11,6 +11,7 @@ body{
     color: #232323;
     margin: auto;
     width: 100%;
+    max-width: 1700px;
 }
 
 
@@ -41,8 +42,7 @@ h3{
 }
 
 h4{
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 10px;
 }
 
 h5{
@@ -108,18 +108,15 @@ strong{
 /*---------NAVBAR HOVER---------*/
 
 .nav-element a:hover {
-    border-top: 2px solid #DEEBFF;
-    color: #0065FC; 
+    border-top: 2px solid #0065FC;
     padding-top: 30px;
 }
 .nav-element1 a:hover {
-    border: 2px solid #DEEBFF;
-    color: #0065FC;
+    border-top: 2px solid #0065FC;
     padding-top: 30px;
 }
 .nav-element2 a:hover {
-    border-top: 2px solid #DEEBFF;
-    color: #0065FC; 
+    border-top: 2px solid #0065FC;
     padding-top: 30px;
 }
 /*------------------------------
@@ -218,6 +215,7 @@ input {
 .content-filtre p{
 padding-right: 15px;
 padding-left: 5px;
+line-height: 10px;
 font-weight: bold;
 }
 
@@ -250,17 +248,13 @@ font-weight: bold;
     padding-left: 10px;
 }
 
-/ ----- TOUS LES HEBERGEMENTS ------ /
+
 
 /*------------------------------
 ------AFFICHAGE LOGEMENTS-------
 ------------------------------*/
 
 
-.liste-hebergements{
-    display: flex;
-    justify-content: space-between;
-}
 
 main {
     display: flex;
@@ -289,7 +283,7 @@ main {
     text-decoration: none;
     margin-bottom: 30px;
     color: black;
-    width: 32%;
+    width: 30%;
     background-color: white;
     border-radius: 30px;
     border: 6px solid #FFFFFF;
@@ -301,7 +295,7 @@ main {
 .hotels-texte{
     margin: -8px 5px 5px 9px;
     line-height: 2px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .hotels img{
@@ -315,8 +309,7 @@ main {
 }
     
 h4{
-    font-size: 19px;
-    font-weight: 700;
+    font-size: 17px;
 }
 
 /*-----ETOILES------*/
@@ -635,7 +628,7 @@ footer
 }
 
 input {
-    width: 300px;
+    width: 250px;
 }
 
 .titre-filtre{
@@ -800,7 +793,7 @@ main{
 
 .title-activites{
     padding-bottom: 15px;
-    padding-top: 15;
+    padding-top: 15px;
     padding-left: 30px;
 }
 
