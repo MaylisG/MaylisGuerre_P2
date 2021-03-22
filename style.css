@@ -359,7 +359,7 @@ flex-wrap: wrap;
 }
 .titre-populaires{
     padding-top: 15px;
-    padding-left: 10px;
+
 }
 
 /*-----DESIGN------*/
@@ -382,8 +382,10 @@ flex-wrap: wrap;
     box-shadow: 10px 10px 10px 10px rgba(232, 225, 225, 0.75)
 }
 
-.fa-chart-line{
-    margin-left: 100px;
+.entete-populaires{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .populaires-texte{
@@ -742,7 +744,7 @@ main{
 
     .titre-populaires{
         padding-top: 5px;
-        padding-left: 5px;
+       
     }
     
     .les-plus-populaires{
