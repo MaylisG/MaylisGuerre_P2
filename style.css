@@ -678,14 +678,7 @@ main{
     }
 
 
-/*------------------------------
-------LOGEMENTS POPULAIRES------
-------------------------------*/
-
-/*-----DISPOSITION------*/
-
-    
-    /*-----BACKGROUND-----*/
+/*-----LOGEMENTS POPULAIRES------*/
     
     .les-plus-populaires{
         background:#F2F2F2;
@@ -694,10 +687,8 @@ main{
         width: 100%;
         margin-left: inherit;
     }
-    
-    /*-----DESIGN------*/
-    
-    
+
+
     .populaires{
         width: inherit
     }
@@ -705,9 +696,6 @@ main{
     
     .populaires-texte .star{
         padding-top: 10px;
-    }
-    .fa-chart-line{
-        margin-left: 180px;
     }
 }
 
@@ -730,9 +718,6 @@ main{
     .les-plus-populaires{
         margin-bottom: 20px;
         background-color: inherit;
-    }
-    .fa-chart-line{
-        margin-left: 20px;
     }
     
      /* HOTELS */
