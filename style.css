@@ -57,9 +57,7 @@ strong{
     font-size: 15px; 
 }
 
-/*------------------------------
-------PADDING LEFT GENERAL-------
-------------------------------*/
+/*-- PRESENTATION --*/
 
 .titre-presentation{
     margin-left: 20px;
@@ -68,9 +66,7 @@ strong{
 .sous-titre-presentation{
     margin-left: 20px;
 }
-/*------------------------------
-------------NAVBAR--------------
-------------------------------*/
+/*-- NAVBAR --*/
 
 .container-logo-inscription {
     display: flex;
@@ -105,6 +101,27 @@ strong{
 
 }
 
+/*-------DISPOSITION-----------*/
+
+.container-logo-inscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+    
+    .container-link-reverse {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+    }
+    
+    .nav-element, .nav-element2{
+        position: relative;
+        bottom: 55px;
+    }
+
 /*---------NAVBAR HOVER---------*/
 
 .nav-element a:hover {
@@ -119,9 +136,8 @@ strong{
     border-top: 2px solid #0065FC;
     padding-top: 30px;
 }
-/*------------------------------
-----------SEARCHBAR-------------
-------------------------------*/
+
+/*-- SEARCHBAR --*/
 
 .icone{
     height: 38px;
@@ -179,9 +195,7 @@ input {
 }
 
 
-/*------------------------------
------------FILTRES--------------
-------------------------------*/
+/*-- FILTRES --*/
 
 .container-filtre{
     display: flex;
@@ -219,9 +233,7 @@ line-height: 10px;
 font-weight: bold;
 }
 
-/*------------------------------
----------INFORMATIONS-----------
-------------------------------*/
+/*-- INFOS --*/
 
 .containeur-info{
     display: flex;
@@ -250,17 +262,13 @@ font-weight: bold;
 
 
 
-/*------------------------------
-------AFFICHAGE LOGEMENTS-------
-------------------------------*/
+/*-- HEBERGEMENTS --*/
 
 
 
 main {
     display: flex;
     }
-
-/*--------HEBERGEMENTS------*/
 
 .titre-hebergements{
     padding-top: 10px;
@@ -275,8 +283,6 @@ main {
     padding-left: 20px;
     margin-left: 20px;
     }
-
-/*-----HOTELS------*/
 
 .hotels{
     
@@ -333,11 +339,7 @@ h4{
 
 
 
-/*------------------------------
-------LOGEMENTS POPULAIRES------
-------------------------------*/
-
-/*-----DISPOSITION------*/
+/*-- POPULAIRES --*/
 
 article {
 display: flex;
@@ -345,8 +347,6 @@ justify-content: space-around;
 align-items: flex-start;
 flex-wrap: wrap;
 }
-
-/*-----BACKGROUND-----*/
 
 .les-plus-populaires{
     background:#F2F2F2;
@@ -361,8 +361,6 @@ flex-wrap: wrap;
     padding-top: 15px;
 
 }
-
-/*-----DESIGN------*/
 
 .containeur-populaires{
     display: flex;
@@ -385,6 +383,7 @@ flex-wrap: wrap;
 .entete-populaires{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     
 }
 
@@ -408,29 +407,7 @@ flex-wrap: wrap;
     height: 155px;
 }
 
-
-.container-logo-inscription{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-left: 50px;
-padding-right: 50px;
-}
-
-.container-link-reverse {
-display: flex;
-justify-content: flex-end;
-padding-right: 200px;
-}
-
-.nav-element, .nav-element2{
-    position: relative;
-    bottom: 55px;
-}
-
-
-
-/* ACTIVITES */
+/*-- ACTIVITES --*/
 
 .container-activites
 {
@@ -438,6 +415,10 @@ padding-right: 200px;
     justify-content: flex-end;
     padding-bottom: 5px;
 
+}
+
+.liste-activites{
+    margin-bottom: 30px;
 }
 
 .activites{
@@ -457,7 +438,7 @@ padding-right: 200px;
     margin-bottom: 20px;
 }
 .notre-dame-de-la-garde{
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 
@@ -500,20 +481,18 @@ padding-right: 200px;
 
 }
 
-.section-activites{
-    width: 100%;
-}
-
 .title-activites{
     padding-top: 10px;
     margin-left: 20px;
 }
 
+/*-- ANIMATIONS HOVER --*/
+
 .hotels:hover, .populaires:hover, .activites:hover {
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-    /* FOOTER */
+/*-- FOOTER --*/
 
 footer
 {
@@ -521,6 +500,7 @@ footer
    display: flex;
    width: 100%;
  }
+
 .footer-column
 {
     display: flex;
