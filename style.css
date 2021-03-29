@@ -105,13 +105,7 @@ strong{
 
 /*-------DISPOSITION-----------*/
 
-.container-logo-inscription{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    }
+
     
     .container-link-reverse {
     display: flex;
@@ -406,7 +400,7 @@ flex-wrap: wrap;
     border-bottom-left-radius: 20px;
     object-fit: cover;
     object-position: 0 50%;
-    width: 95%;
+    width: 150px;
     height: 155px;
 }
 
@@ -416,16 +410,33 @@ flex-wrap: wrap;
 {
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 5px;
+    justify-content: space-between;
+    padding-bottom: 50px;
 
 }
 
 .liste-activites{
-    margin-bottom: 30px;
+    margin: auto;
+    width: 100%;
+    max-width: 1700px;
 }
 
-.activites{
-    width: 90%;
+.activites-vieux-port{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 20px;
+}
+
+.activites-vieux-port:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+.activites-calanques{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -436,13 +447,79 @@ flex-wrap: wrap;
     border-bottom-right-radius: 20px;
 }
 
+.activites-calanques:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
 
-.fort-de-pomegues{
-    margin-bottom: 20px;
+.activites-fort-de-pomegues{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.notre-dame-de-la-garde{
-    margin-bottom: 20px;
+
+.activites-fort-de-pomegues:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
+
+.activites-parc-lonchamp{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.activites-parc-lonchamp:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+.activites-ile-du-frioul{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.activites-ile-du-frioul:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+.activites-notre-dame-de-la-garde{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.activites-notre-dame-de-la-garde:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+
+
+
+
 
 
 .titre-activite{
@@ -457,8 +534,8 @@ flex-wrap: wrap;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-position: 0 50%;
-    width: 100%;
-    height: 400px;
+    width: 300px;
+    height: 420px;
     object-fit: cover;
     margin: auto;
 
@@ -468,7 +545,7 @@ flex-wrap: wrap;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-position: 0 50%;
-    width: 100%;
+    width: 280px;
     height: 220px;
     object-fit: cover;
     margin: auto;
@@ -477,7 +554,7 @@ flex-wrap: wrap;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-position: 0 50%;
-    width: 100%;
+    width: 280px;
     height: 112px;
     object-fit: cover;
     margin: auto;
@@ -554,6 +631,15 @@ footer
         justify-content: center;
         padding-right: inherit;
     }
+
+    .container-logo-inscription{
+        margin-left: 0px;
+    }
+
+.nav-element1 a{
+    padding: 0px;
+    
+}
 .nav-element, .nav-element2{
     position: inherit;
     bottom: inherit;
@@ -632,8 +718,44 @@ footer{
     flex-direction: column;
 }
 
-.activites{
+.activites-vieux-port{
     margin-bottom: 20px;
+    width: 450px;
+}
+
+.activites-fort-de-pomegues{
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.activites-ile-du-frioul{
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+
+.activites-calanques{
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.activites-notre-dame-de-la-garde{
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.activites-parc-lonchamp{
+    margin-bottom: 20px;
+    width: 450px;
+}
+.image-activites1{
+    width: 450px;
+}
+.image-activites2{
+    width: 450px;
+}
+.image-activites3{
+    width: 450px;
 }
  
 .image-activites1{
