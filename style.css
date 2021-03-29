@@ -863,20 +863,58 @@ main{
     flex-direction: column;
 }
 
-.activites{
-    margin-bottom: 20px;
-}
- 
 .image-activites1{
     height: 150px;
-}
+    width: 100%;
 
+    
+}
 .image-activites2{
     height: 150px;
+    width: 100%;
 }
-
 .image-activites3{
     height: 150px;
+    width: 100%;
+}
+
+.activites-vieux-port{
+    margin-bottom: 70px;
+    height: 150px;
+    width: 95%;
+    padding-right: 20px;
+}
+
+.activites-calanques{
+    margin-bottom: 70px;
+    height: 150px;
+    width: 95%;
+    margin-left: 20px;
+}
+.activites-fort-de-pomegues{
+    margin-bottom: 70px;
+    height: 150px;
+    width: 95%;
+}
+
+.activites-parc-lonchamp{
+    margin-bottom: 70px;
+    height: 150px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.activites-ile-du-frioul{
+    margin-bottom: 70px;
+    height: 150px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.activites-notre-dame-de-la-garde{
+    margin-bottom: 70px;
+    height: 150px;
+    width: 95%;
 }
 
 .section-activites{
