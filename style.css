@@ -409,7 +409,6 @@ flex-wrap: wrap;
 .container-activites
 {
     display: flex;
-    justify-content: flex-end;
     justify-content: space-between;
     padding-bottom: 50px;
     width: 100%;
@@ -423,10 +422,10 @@ flex-wrap: wrap;
 }
 
 .activites-vieux-port{
+    width: 290px;
     display: flex;
     flex-direction: column;
-  
-    box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
+   box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -438,9 +437,9 @@ flex-wrap: wrap;
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 .activites-calanques{
+    width: 290px;
     display: flex;
     flex-direction: column;
-  
     box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -453,7 +452,7 @@ flex-wrap: wrap;
 }
 
 .activites-fort-de-pomegues{
-    width: 280px;
+    width: 290px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
@@ -470,7 +469,7 @@ flex-wrap: wrap;
 }
 
 .activites-parc-lonchamp{
-    width: 280px;
+    width: 290px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
@@ -484,7 +483,7 @@ flex-wrap: wrap;
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 .activites-ile-du-frioul{
-    width: 280px;
+    width: 290px;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
@@ -497,10 +496,9 @@ flex-wrap: wrap;
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 .activites-notre-dame-de-la-garde{
-    width: 280px;
+    width: 290px;
     display: flex;
     flex-direction: column;
-  
     box-shadow: 0px 0px 10px 4px rgba(232, 225, 225, 0.75);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -526,7 +524,6 @@ flex-wrap: wrap;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-position: 0 50%;
-    width: 300px;
     height: 420px;
     object-fit: cover;
 }
@@ -535,7 +532,6 @@ flex-wrap: wrap;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-position: 0 50%;
-    width: 280px;
     height: 220px;
     object-fit: cover; 
 }
@@ -543,7 +539,6 @@ flex-wrap: wrap;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-position: 0 50%;
-    width: 280px;
     height: 112px;
     object-fit: cover;
 
@@ -913,6 +908,17 @@ main{
     padding-top: 15px;
     padding-left: 30px;
 }
-
-
 }
+
+
+@media screen and (max-width: 700px){
+    .les-plus-populaires{
+        height: 700px;
+    }
+    .populaires img{
+        width: 100px;
+        height: 100%;
+    }
+}
+
+
