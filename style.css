@@ -911,7 +911,7 @@ main{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 690px){
     .les-plus-populaires{
         height: 700px;
     }
